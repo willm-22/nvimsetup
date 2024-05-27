@@ -1,4 +1,4 @@
-require("config.loadfirst")
+require("config.leader")
 require("config.lazy")
 require("config.keybinds")
 require("config.settings")
