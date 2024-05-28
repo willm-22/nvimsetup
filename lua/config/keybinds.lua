@@ -27,5 +27,6 @@ vim.keymap.set("n", "<C-S-P>", function() harpoon:list():prev() end)
 vim.keymap.set("n", "<C-S-N>", function() harpoon:list():next() end)
 
 vim.keymap.set("n", "<leader>gs", vim.cmd.Git)
-vim.keymap.set("n", "<leader>gc", ":Git commit -a<CR>")
+vim.keymap.set("n", "<leader>ga", ":Git add --all<CR>")
+vim.keymap.set("n", "<leader>gc", ":Git commit<CR>")
 vim.keymap.set("n", "<leader>gp", ":Git push<CR>")
